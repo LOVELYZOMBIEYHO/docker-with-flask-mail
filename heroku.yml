@@ -1,0 +1,4 @@
+# Optional to use, if you have docker-compose.yaml may not need this
+build:
+  docker:
+    web: Dockerfile

@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  web:
+    build: .
+    ports:
+      # 80 for localhost, can 5001:5001
+      - "80:5001"
